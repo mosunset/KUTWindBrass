@@ -7,9 +7,9 @@
     position: absolute;
     top: 53.5%;
     left: 50%;
-    transform: translate(-50%,-50%);
-    margin:0;
-    padding:0;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    padding: 0;
 }
 
 .text-shadow-dark {
@@ -32,7 +32,7 @@
     border-radius: .75rem;
 }
 
-#hanging-icons i{
+#hanging-icons i {
     width: 1em;
     height: 1em;
 }

@@ -1,0 +1,38 @@
+.img-overflow {
+    position: relative;
+}
+
+.name {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
+    top: 53.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    padding: 0;
+}
+
+.text-shadow-dark {
+    text-shadow: 1px 1px 0 #555, -1px -1px 0 #555,
+        -1px 1px 0 #555, 1px -1px 0 #555,
+        0px 1px 0 #555, 0-1px 0 #555,
+        -1px 0 0 #555, 1px 0 0 #555;
+}
+
+.text-shadow-light {
+    text-shadow: 1px 1px 0 #FFF, -1px -1px 0 #FFF,
+        -1px 1px 0 #FFF, 1px -1px 0 #FFF,
+        0px 1px 0 #FFF, 0-1px 0 #FFF,
+        -1px 0 0 #FFF, 1px 0 0 #FFF;
+}
+
+.icon-square {
+    width: 3rem;
+    height: 3rem;
+    border-radius: .75rem;
+}
+
+#hanging-icons i {
+    width: 1em;
+    height: 1em;
+}

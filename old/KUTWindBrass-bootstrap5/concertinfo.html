@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ja">
+<!--bootstrap5で記述2022/06-->
+<!--変更する際は  https://getbootstrap.jp/docs/5.0/getting-started/introduction/  を参照-->
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-2JTN3P8WSV"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-2JTN3P8WSV');
+    </script>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="cache-control" content="no-cache">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="./icon/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./icon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="./icon/favicon-16x16.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="./icon/android-chrome-192x192.png">
+    <link rel="manifest" href="./icon/site.webmanifest" />
+    <link rel="mask-icon" href="./icon/safari-pinned-tab.svg" color="#5bbad5" />
+    <link rel="shortcut icon" href="./icon/favicon.ico" />
+    <meta name="msapplication-TileColor" content="#2d89ef" />
+    <meta name="theme-color" content="#ffffff" />
+
+
+    <title>演奏情報 : 吹奏楽部KUT WINDBRASS</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css" />
+    <link href="./css/bootstrap.min.css" rel="stylesheet" />
+    <style>
+        * {
+            font-family: "M PLUS Rounded 1c", sans-serif;
+            box-sizing: border-box;
+        }
+        main img {
+            aspect-ratio: 16 / 9;
+            object-fit: cover;
+        }
+        .nopage{
+            display: none;
+        }
+    </style>
+</head>
+
+<body class="d-flex flex-column vh-100">
+
+    <header class="py-3 mb-4 border-bottom navbar navbar-expand-lg navbar-light">
+        <div class="container d-flex flex-wrap">
+            <a href="./index.html" class="d-flex align-items-center mb-md-0 me-lg-auto text-dark text-decoration-none">
+                <img src="./img/brass_logo-brack.png" class="me-2" width="40" height="32" />
+                <span class="fs-4">吹奏楽部KUT <span class="d-none d-sm-inline">WINDBRASS</span></span>
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="nav nav-pills justify-content-center">
+                    <li class="nav-item">
+                        <a href="./index.html" class="nav-link icon-hover" data-bs-placement="bottom" data-toggle="popover" title="ホーム">ホーム</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./concertinfo.html" class="nav-link active icon-hover" data-bs-placement="bottom" data-toggle="popover" title="演奏情報">演奏情報</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./activityrecords.html" class="nav-link icon-hover" data-bs-placement="bottom" data-toggle="popover" title="活動記録">活動記録</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./links.html" class="nav-link icon-hover" data-bs-placement="bottom" data-toggle="popover" title="SNS等">SNS等</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./contact.html" class="nav-link icon-hover" data-bs-placement="bottom" data-toggle="popover" title="お問い合わせ">お問い合わせ</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="row justify-content-between p-3">
+            <!--
+            <div class="card my-3 mx-auto" style="width: 30rem;">
+                <img src="..." onerror="this.src='./img/no-img.jpg'" alt="カードの画像" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">工科大クラブ活動ページ</h5>
+                    <p class="card-text">以下のテキストを追加のコンテンツへの自然な導入としてサポート。カードのコンテンツ カードのコンテンツ</p>
+                    <a href="" class="btn btn-outline-primary w-100">特設ページ<i class="bi bi-arrow-up-right-square ps-1"></i></a>
+                </div>
+            </div>
+        -->
+            <div class="card my-3 mx-auto p-0" style="width: 30rem;">
+                <img src="./img/concertinfo/定演23.png" onerror="this.src='./img/no-img.jpg'" alt="カードの画像" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">第23回定期演奏会 無観客ライブ</h5>
+                    <p class="card-text">2022/2/27(日)</p>
+                </div>
+                <div class="card-footer">
+                    <p class="card-title text-danger">※新型コロナウイルスの影響で中止となりました。</p>
+                    <p class="card-text">楽しみにしていただいた方にはご迷惑をおかけすることとなり、申し訳ございません。</p>
+                    <a href="#" class="btn btn-outline-primary w-100 nopage">特設ページ<i class="bi bi-arrow-up-right-square ps-1"></i></a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="mt-auto py-3 bg-light">
+        <div class="container d-flex flex-wrap justify-content-center">
+            <a href="./index.html" class="d-flex align-items-center mb-md-0 me-md-auto text-dark text-decoration-none">
+                <img src="./img/brass_logo-brack.png" class="me-2" width="40" height="32" />
+                <span class="text-muted">吹奏楽部KUT WINDBRASS</span>
+            </a>
+
+            <ul class="nav nav-pills justify-content-center">
+                <li class="mx-3 d-flex align-items-center">
+                    <a class="text-muted icon-hover" href="https://www.kochi-tech.ac.jp/campus_life/activities/culture-club/-wind-brass-1.html" data-bs-placement="top" data-toggle="popover" title="工科大ホームページ">
+                        <img src="./img/kut_logo1.png" width="20" />
+                    </a>
+                </li>
+                <li class="mx-3 d-flex align-items-center">
+                    <a class="text-muted icon-hover" href="https://www.instagram.com/kutwindbrass/" data-bs-placement="top" data-toggle="popover" title="インスタグラム">
+                        <i class="bi bi-instagram"></i>
+                    </a>
+                </li>
+                <li class="mx-3 d-flex align-items-center">
+                    <a class="text-muted icon-hover" href="https://twitter.com/windbrass_kut" data-bs-placement="top" data-toggle="popover" title="ツイッター">
+                        <i class="bi bi-twitter"></i>
+                    </a>
+                </li>
+                <li class="mx-3 d-flex align-items-center">
+                    <a class="text-muted icon-hover" href="https://peing.net/ja/windbrass_kut" data-bs-placement="top" data-toggle="popover" title="質問箱peing">
+                        <i class="bi bi-box-seam"></i>
+                    </a>
+                </li>
+                <li class="mx-3 d-flex align-items-center">
+                    <a class="text-muted icon-hover" href="https://www.youtube.com/user/KUTWINDBRASS" data-bs-placement="top" data-toggle="popover" title="ユーチューブ">
+                        <i class="bi bi-youtube"></i>
+                    </a>
+                </li>
+                <li class="mx-3 d-flex align-items-center">
+                    <a class="text-muted icon-hover" href="https://www.facebook.com/windbrass/" data-bs-placement="top" data-toggle="popover" title="フェイスブック">
+                        <i class="bi bi-facebook"></i>
+                    </a>
+                </li>
+                <li class="mx-3 d-flex align-items-center">
+                    <a class="text-muted icon-hover" href="http://wbrass.blog64.fc2.com/" data-bs-placement="top" data-toggle="popover" title="ブログ">
+                        <i class="bi bi-newspaper"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script>
+        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
+        var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+            return new bootstrap.Tooltip(tooltipTriggerEl);
+        });
+
+        $(function () {
+            $(".icon-hover").popover({
+                trigger: "hover", // click,hover,focus,manualを選択出来る
+            });
+        });
+    </script>
+</body>
+
+</html>

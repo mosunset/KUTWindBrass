@@ -1,0 +1,11 @@
+# order deny,allow
+# deny from all
+# allow from proxy.noc.kochi-tech.ac.jp
+
+# authenticate(Basic)
+AuthUserFile /home/scinfo26/260277p/.htpasswd
+AuthGroupFile /dev/null
+AuthName "Please enter ID and PassWord for KUT WIND BRASS club members only"
+AuthType Basic
+require valid-user
+

@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+/* @media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+} */
+
+*{
+  font-family: "M PLUS Rounded 1c", sans-serif;
+}
+
+body {
+  min-width: 350px;
+  overflow-x: hidden;
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(0deg, #59005c10, #71055e10, #87125e10, #9c215e10, #ae315e10, #bf425d10, #ce545d10, #dc665d10, #e7795e10, #f18d6010, #f9a16510, #ffb56b10);
+}
